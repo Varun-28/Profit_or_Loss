@@ -55,6 +55,7 @@ input:focus{
     align-items: center;
     justify-content: center;
     color: #FFA0A0;
+    text-align: center;
 }
 #box span{
     font-size: 2rem;
