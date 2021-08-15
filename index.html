@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark 14 - Stocks</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PROFIT <span>or</span> LOSS</h1>
+
+    <main>
+        <section id="input_section">
+            <div class="input_fields">
+                <label for="initial">Initial Price</label>
+                <input type="number" name="initial_price" id="initial" placeholder="Enter Initial Price">
+            </div>
+            <div class="input_fields">
+                <label for="quantity">Quantity of Stocks</label>
+                <input type="number" name="total_quantity" id="quantity" placeholder="Enter the Number of Stocks Bought">
+            </div>
+            <div class="input_fields">
+                <label for="current">Current Price</label>
+                <input type="number" name="current_price" id="current" placeholder="Enter Current Price">
+            </div>
+            
+            <button id="submit-btn">Calculate</button>
+        </section>
+        <section id="output_section">
+            <div id="box">
+            </div>
+        </section>
+    </main>
+    <script src="script.js">
+    </script>
+</body>
+</html>
