@@ -22,11 +22,11 @@ function calProfitLoss(initial, quantity, current){
     if(initial > current){
         var loss = (initial - current) * quantity;
         var lossPercentage = (loss / initial) * 100;
-        showOutput(`<h2>Loss Percentage is ${lossPercentage.toFixed(2)}%</h2> <span>😢</span>`);
+        showOutput(`<h2>Loss Percentage is ${lossPercentage.toFixed(2)}% and Absolute loss is ${loss.toFixed(2)}</h2> <span>😢</span>`);
     }else if(initial < current){
         var profit = (current - initial) * quantity;
         var profitPercentage = (profit / initial) * 100;
-        showOutput(`<h2>Profit Percentage is ${profitPercentage.toFixed(2)}%</h2> <span>😍</span>`);
+        showOutput(`<h2>Profit Percentage is ${profitPercentage.toFixed(2)}% and Absolute Profit is ${profit.toFixed(2)}</h2> <span>😍</span>`);
     }else{
         showOutput(`<h2>No Loss and No Profit</h2> <span>🤷</span>`);
     }
